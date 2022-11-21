@@ -1,5 +1,3 @@
-
-    
     var tasks = ["Task 1", "Task 2", "Need to study Array", "Task 4"];
     var tasks_status = ["New", "New", "New", "Completed"];
     
@@ -30,25 +28,3 @@
        showTable();
     }
 
-
-
-
-    /*document.getElementById("task").innerHTML = tasks[0];
-    document.getElementById("task_status").innerHTML = task_status;
-    
-    document.getElementById("task_1").innerHTML = task_1;
-    document.getElementById("task_status_1").innerHTML = task_status_1;
-    
-    function taskComplted(task_id) {
-        console.log("inside taskCompleted");
-        task_status = "Completed";
-        document.getElementById(task_id).innerHTML = task_status;
-    }
-    
-   
-    
-    document.getElementById("task_completed").addEventListener("click", taskComplted("task_completed"));
-    document.getElementById("task_completed_1").addEventListener("click", taskComplted("task_completed_1")); */
-    
-    //setTimeout(taskComplted, 10000);
-    

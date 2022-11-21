@@ -1,0 +1,93 @@
+body {
+  font-family: "Muli", sans-serif;
+  background-color: steelblue;
+  color: #fff;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+header {
+  width: 80%;
+  margin: 30px auto;
+}
+
+
+.hide{
+  display: none;
+}
+
+.validation-error{
+   color: #f70f0f;
+   font-size: 18px;
+   margin-left: 10px;
+}
+
+input[type=text],
+input[type=email] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 40%;
+  background-color: #15dcdc;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 800;
+  padding: 14px 20px;
+  margin: 8px 0px;
+  border: none;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.btn-style{
+  width: 40%;
+  background-color: #15dcdc;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 800;
+  padding: 14px 20px;
+  margin: 8px 0px;
+  border: none;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.form-action-button {
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+  width: 80%;
+  margin: 30px auto;
+}
+
+td,
+th {
+  border: 1px solid #ddd;
+  text-align: center;
+  padding: 8px;
+  margin-top: 10px;
+}
+
+.list thead{
+  background-color: #ddd;
+  color: #000;
+}
+
+.btn{
+  cursor: pointer;
+  text-decoration: underline;
+  color: #000eee;
+  margin-left: 8px;
+}
