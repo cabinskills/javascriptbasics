@@ -14,6 +14,7 @@ function save() {
         console.log("Frist Condition False");
         id = 0
     }
+  
 
     // contactList.length != 0 ? contactList.findLast((item) => id = item.id) : id = 0
 
@@ -49,6 +50,7 @@ function save() {
             // console.log(contactList.push(item));
     }
 
+    
     // save array into localstorage
     localStorage.setItem('listItem', JSON.stringify(contactList))
 

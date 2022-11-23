@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+
+    // Object of Array
+    let objArray = {
+  "status": "OK",
+  "message": "Success",
+  "SupportLoggerReports": [
+    {
+      "MID": 110,
+      "DATE": "2022-11-19T12:13:19.4",
+      "CUSTOMER_ID": "TJ0022",
+      "CUSTOMER_NAME": "THANGAM JEWEL LLC",
+      "EMPMST_NAME": "SANEESH",
+      "SEVERITY": "HIGH",
+      "VB": false,
+      "DOTNET": true,
+      "VBTODOTNET": false,
+      "MODULE": "Utilities",
+      "SUB_MODULE": "Create New Voucher Type",
+      "ISTHIRDPARTY_RELATED": false,
+      "THIRDPARTY_TYPE": "-",
+      "PROBLEM_DEFINITION": "NEED OPTION FOR CHANGE THE ITEM DESCRIPTION IN PURCHASE AND SALES VOUCHERS",
+      "GIVEN_SOLUTION": "GIVEN OPTION FROM VOUCHER TYPE MASTER",
+      "ISREPEATED": false,
+      "FORWARDED_TO": "SANEESH",
+      "STATUS": "CLOSE",
+      "CREATED_DATE": "2022-11-19T12:13:19.4",
+      "ISSUE_TYPE": "General",
+      "ISSUE_SOLVED": false,
+      "ISSUE_SOLVED_REMARK": "",
+      "NEEDTO_ADDFAQ": false,
+      "ADDED_FAQ": false,
+      "FAQ_REMARK": ""
+    },
+    {
+      "MID": 111,
+      "DATE": "2022-11-19T12:47:09.46",
+      "CUSTOMER_ID": "BD0001",
+      "CUSTOMER_NAME": "Brilliant Diamond DMCC",
+      "EMPMST_NAME": "ALSMON",
+      "SEVERITY": "HIGH",
+      "VB": false,
+      "DOTNET": true,
+      "VBTODOTNET": false,
+      "MODULE": "Transaction",
+      "SUB_MODULE": "Genral Sales Order",
+      "ISTHIRDPARTY_RELATED": false,
+      "THIRDPARTY_TYPE": "-",
+      "PROBLEM_DEFINITION": "account not listing in the popup",
+      "GIVEN_SOLUTION": "need to give new popup for other account also",
+      "ISREPEATED": false,
+      "FORWARDED_TO": "ALSMON",
+      "STATUS": "CLOSE",
+      "CREATED_DATE": "2022-11-19T12:47:09.46",
+      "ISSUE_TYPE": "Account Master Issue",
+      "ISSUE_SOLVED": false,
+      "ISSUE_SOLVED_REMARK": "",
+      "NEEDTO_ADDFAQ": false,
+      "ADDED_FAQ": false,
+      "FAQ_REMARK": ""
+    },
+    {
+      "MID": 112,
+      "DATE": "2022-11-19T12:47:12.573",
+      "CUSTOMER_ID": "NKJ001",
+      "CUSTOMER_NAME": "NAKSHATHRA JEWELLERY CO. L.L.C",
+      "EMPMST_NAME": "SANEESH",
+      "SEVERITY": "CRITICAL",
+      "VB": false,
+      "DOTNET": true,
+      "VBTODOTNET": false,
+      "MODULE": "PoS",
+      "SUB_MODULE": "Sale Return",
+      "ISTHIRDPARTY_RELATED": false,
+      "THIRDPARTY_TYPE": "-",
+      "PROBLEM_DEFINITION": "getting incorrect syntax near error while saving psr from pos",
+      "GIVEN_SOLUTION": "",
+      "ISREPEATED": false,
+      "FORWARDED_TO": "SHASHIDHARA REDDY",
+      "STATUS": "OPEN",
+      "CREATED_DATE": "2022-11-19T12:47:12.573",
+      "ISSUE_TYPE": "General",
+      "ISSUE_SOLVED": false,
+      "ISSUE_SOLVED_REMARK": "",
+      "NEEDTO_ADDFAQ": false,
+      "ADDED_FAQ": false,
+      "FAQ_REMARK": ""
+    },
+    {
+      "MID": 113,
+      "DATE": "2022-11-19T17:27:17.547",
+      "CUSTOMER_ID": "AR0076",
+      "CUSTOMER_NAME": "Kairali Jewellers L.L.C",
+      "EMPMST_NAME": "AKHIL",
+      "SEVERITY": "URGENT",
+      "VB": false,
+      "DOTNET": true,
+      "VBTODOTNET": false,
+      "MODULE": "Transaction",
+      "SUB_MODULE": "Purchase",
+      "ISTHIRDPARTY_RELATED": false,
+      "THIRDPARTY_TYPE": "-",
+      "PROBLEM_DEFINITION": "Loose stone purchasing time (this sql transaction has completed, it is no longer usable) this error message showing there.",
+      "GIVEN_SOLUTION": "",
+      "ISREPEATED": false,
+      "FORWARDED_TO": "SHASHIDHARA REDDY",
+      "STATUS": "OPEN",
+      "CREATED_DATE": "2022-11-19T17:27:17.547",
+      "ISSUE_TYPE": "General",
+      "ISSUE_SOLVED": false,
+      "ISSUE_SOLVED_REMARK": "",
+      "NEEDTO_ADDFAQ": false,
+      "ADDED_FAQ": false,
+      "FAQ_REMARK": ""
+    }
+  ]
+};
+
+let newData = objArray.SupportLoggerReports;
+
+    // Array of Object
+    let data= [
+    {
+      "MID": 110,
+      "DATE": "2022-11-19T12:13:19.4",
+      "CUSTOMER_ID": "TJ0022",
+      "CUSTOMER_NAME": "THANGAM JEWEL LLC",
+      "EMPMST_NAME": "SANEESH",
+      "SEVERITY": "HIGH",
+      "VB": false,
+      "DOTNET": true,
+      "VBTODOTNET": false,
+      "MODULE": "Utilities",
+      "SUB_MODULE": "Create New Voucher Type",
+      "ISTHIRDPARTY_RELATED": false,
+      "THIRDPARTY_TYPE": "-",
+      "PROBLEM_DEFINITION": "NEED OPTION FOR CHANGE THE ITEM DESCRIPTION IN PURCHASE AND SALES VOUCHERS",
+      "GIVEN_SOLUTION": "GIVEN OPTION FROM VOUCHER TYPE MASTER",
+      "ISREPEATED": false,
+      "FORWARDED_TO": "SANEESH",
+      "STATUS": "CLOSE",
+      "CREATED_DATE": "2022-11-19T12:13:19.4",
+      "ISSUE_TYPE": "General",
+      "ISSUE_SOLVED": false,
+      "ISSUE_SOLVED_REMARK": "",
+      "NEEDTO_ADDFAQ": false,
+      "ADDED_FAQ": false,
+      "FAQ_REMARK": ""
+    },
+    {
+      "MID": 111,
+      "DATE": "2022-11-19T12:47:09.46",
+      "CUSTOMER_ID": "BD0001",
+      "CUSTOMER_NAME": "Brilliant Diamond DMCC",
+      "EMPMST_NAME": "ALSMON",
+      "SEVERITY": "HIGH",
+      "VB": false,
+      "DOTNET": true,
+      "VBTODOTNET": false,
+      "MODULE": "Transaction",
+      "SUB_MODULE": "Genral Sales Order",
+      "ISTHIRDPARTY_RELATED": false,
+      "THIRDPARTY_TYPE": "-",
+      "PROBLEM_DEFINITION": "account not listing in the popup",
+      "GIVEN_SOLUTION": "need to give new popup for other account also",
+      "ISREPEATED": false,
+      "FORWARDED_TO": "ALSMON",
+      "STATUS": "CLOSE",
+      "CREATED_DATE": "2022-11-19T12:47:09.46",
+      "ISSUE_TYPE": "Account Master Issue",
+      "ISSUE_SOLVED": false,
+      "ISSUE_SOLVED_REMARK": "",
+      "NEEDTO_ADDFAQ": false,
+      "ADDED_FAQ": false,
+      "FAQ_REMARK": ""
+    },
+    {
+      "MID": 112,
+      "DATE": "2022-11-19T12:47:12.573",
+      "CUSTOMER_ID": "NKJ001",
+      "CUSTOMER_NAME": "NAKSHATHRA JEWELLERY CO. L.L.C",
+      "EMPMST_NAME": "SANEESH",
+      "SEVERITY": "CRITICAL",
+      "VB": false,
+      "DOTNET": true,
+      "VBTODOTNET": false,
+      "MODULE": "PoS",
+      "SUB_MODULE": "Sale Return",
+      "ISTHIRDPARTY_RELATED": false,
+      "THIRDPARTY_TYPE": "-",
+      "PROBLEM_DEFINITION": "getting incorrect syntax near error while saving psr from pos",
+      "GIVEN_SOLUTION": "",
+      "ISREPEATED": false,
+      "FORWARDED_TO": "SHASHIDHARA REDDY",
+      "STATUS": "OPEN",
+      "CREATED_DATE": "2022-11-19T12:47:12.573",
+      "ISSUE_TYPE": "General",
+      "ISSUE_SOLVED": false,
+      "ISSUE_SOLVED_REMARK": "",
+      "NEEDTO_ADDFAQ": false,
+      "ADDED_FAQ": false,
+      "FAQ_REMARK": ""
+    },
+    {
+      "MID": 113,
+      "DATE": "2022-11-19T17:27:17.547",
+      "CUSTOMER_ID": "AR0076",
+      "CUSTOMER_NAME": "Kairali Jewellers L.L.C",
+      "EMPMST_NAME": "AKHIL",
+      "SEVERITY": "URGENT",
+      "VB": false,
+      "DOTNET": true,
+      "VBTODOTNET": false,
+      "MODULE": "Transaction",
+      "SUB_MODULE": "Purchase",
+      "ISTHIRDPARTY_RELATED": false,
+      "THIRDPARTY_TYPE": "-",
+      "PROBLEM_DEFINITION": "Loose stone purchasing time (this sql transaction has completed, it is no longer usable) this error message showing there.",
+      "GIVEN_SOLUTION": "",
+      "ISREPEATED": false,
+      "FORWARDED_TO": "SHASHIDHARA REDDY",
+      "STATUS": "OPEN",
+      "CREATED_DATE": "2022-11-19T17:27:17.547",
+      "ISSUE_TYPE": "General",
+      "ISSUE_SOLVED": false,
+      "ISSUE_SOLVED_REMARK": "",
+      "NEEDTO_ADDFAQ": false,
+      "ADDED_FAQ": false,
+      "FAQ_REMARK": ""
+    }
+  ];
+
+  console.log(data);
+
+  let total_ticket_raised = data.length;
+  console.log("total raised :"+total_ticket_raised);
+
+  // Get the list of object where SEVERITY=='HIGH' 
+  let severity_high = data.filter(function (passeddata) { return passeddata.SEVERITY=='HIGH'}); 
+  console.log("High :"+severity_high.length);
+
+  // Get the list of object where SEVERITY=='URGENT' 
+  let severity_u = data.filter(function (passeddata) { return passeddata.SEVERITY=='URGENT'}); 
+  console.log("Urgent :"+severity_u.length);
+
+  // Get the list of object where SEVERITY=='CRITICAL' 
+  let severity_c = data.filter(function (passeddata) { return passeddata.SEVERITY=='CRITICAL'}); 
+  console.log("Critacal :"+severity_c.length);
+
+
+   // Get list of unique EMPMST_NAME (it will not return the object. It will return the value alone)
+  const unique = [...new Set(data.map(item => item.EMPMST_NAME))];
+
+  console.log(unique);
+  console.log("total agents :"+unique.length);
+
+  // Get list of unique ISSUE_TYPE (it will not return the object. It will return the value alone)
+  const issue_type = [...new Set(data.map(item => item.ISSUE_TYPE))];
+  console.log(issue_type);
+
+  // Filter list of objects of unique Module Name
+  let uniqueModuleArray = [...new Map(data.map((item) => [item["MODULE"], item])).values()];
+  console.log(uniqueModuleArray);
+
+
+</script>
+<body>
+    
+</body>
+</html>
